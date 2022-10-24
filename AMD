@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<h1>Отправка заявки на конференцию</h1>
+</head>
+<body>
+	<h2>Основные данные</h2>
+	<h3>-Фамилия, имя, отчевство:</h3>
+	<textarea></textarea>
+	<h3>Дата рождения:</h3>
+	<textarea>дд.мм.гггг</textarea>
+	<h3>Пол:</h3>
+ <input type="radio" name="answer" value="a2">Мужской <input type="radio" name="answer" value="a2">женский
+ <h2>Данные для создания личного кабинета</h2>
+ <h3>* Адрес электронной почты</h3>
+ <textarea></textarea>
+ <h3>* Пароль для создания личного кабинета:</h3>
+ <textarea></textarea>
+ <h3>* Подтверждение пароля:</h3>
+  <textarea></textarea>
+  <h2>Материалы ждя конференции</h2>
+  <h3>* Тема доклада:</h3>
+  <textarea></textarea>
+  <h3>* Тезисы доклада (не более 1000 символов):</h3>
+   <textarea></textarea>
+   <h3>Файл презентации</h3>
+   <input type="file" атрибуты>
+   <h3>Дополнительные опции</h3>
+   <input type="checkbox" name="option3" value="a3">Проживание<Br> 
+   <input type="checkbox" name="option3" value="a3">Завтрак<Br> 
+   <input type="checkbox" name="option3" value="a3">Обед<Br> 
+   <input type="checkbox" name="option3" value="a3">Ужин<Br>
+   <hr>
+   <input type="submit" value="Отправить">
+   <hr>
+   <p>*Поля, отмеченные звёздочкой, являются обязательными для заполнения</p>
+</body>
+</html>
